@@ -1,0 +1,25 @@
+{
+  "name": "chrome-jest-mock",
+  "version": "1.0.0",
+  "description": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest || exit(1)",
+    "watch:test": "nodemon -w __tests__ -w ./lib -e js,jsx -x npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arvitaly/chrome-jest-mock.git"
+  },
+  "keywords": [
+    "chrome",
+    "jest",
+    "mock"
+  ],
+  "author": "arvitaly",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arvitaly/chrome-jest-mock/issues"
+  },
+  "homepage": "https://github.com/arvitaly/chrome-jest-mock#readme"
+}
