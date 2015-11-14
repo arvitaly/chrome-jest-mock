@@ -27,11 +27,13 @@
   <ItemGroup>
     <TypeScriptCompile Include="index.d.ts" />
     <TypeScriptCompile Include="index.ts" />
+    <TypeScriptCompile Include="lib\BrowserAction.ts" />
     <TypeScriptCompile Include="lib\Chrome.ts" />
     <TypeScriptCompile Include="lib\Runtime.ts" />
     <TypeScriptCompile Include="lib\Tab.ts" />
     <TypeScriptCompile Include="lib\Tabs.ts" />
     <TypeScriptCompile Include="typings\tsd.d.ts" />
+    <TypeScriptCompile Include="__tests__\BrowserAction.ts" />
     <TypeScriptCompile Include="__tests__\Chrome.ts" />
     <TypeScriptCompile Include="__tests__\Tabs.ts" />
   </ItemGroup>

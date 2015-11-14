@@ -2,6 +2,7 @@ declare module ChromeJestMock {
     interface Chrome {
         tabs: Tabs;
         runtime: Runtime;
+        browserAction: BrowserAction;
     }
     namespace Manifect {
         interface ContentScript {
@@ -15,6 +16,11 @@ declare module ChromeJestMock {
     }
     interface ChromeStatic {
         new (manifest?: Manifect.Manifest): Chrome;
+    }
+    interface BrowserAction {
+        onClicked: {
+            addListener: jest.Mock<any>;
+        };
     }
     interface Runtime {
         id: string;
