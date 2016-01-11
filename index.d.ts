@@ -25,6 +25,9 @@ declare module ChromeJestMock {
     interface Runtime {
         id: string;
         lastError: Object;
+        onMessage: {
+            addListener: jest.Mock<any>
+        }
     }
     interface Tabs {
         create: Tabs.Create;

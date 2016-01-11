@@ -1,4 +1,7 @@
-﻿export class Runtime {
+﻿export class Runtime implements ChromeJestMock.Runtime {
     id: string;
     lastError: Object;
+    onMessage = {
+        addListener: jest.genMockFn()
+    };
 }
