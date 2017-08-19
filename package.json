@@ -2,7 +2,7 @@
   "name": "chrome-jest-mock",
   "version": "1.0.2",
   "description": "Chrome-object mock for chrome extension testing with Jest",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "prepublish": "tsc",
     "precommit": "lint-staged",
@@ -58,6 +58,7 @@
     "typescript": "^2.4.2"
   },
   "dependencies": {
+    "@types/chrome": "^0.0.48",
     "@types/jest": "^20.0.7"
   }
 }

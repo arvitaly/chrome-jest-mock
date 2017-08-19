@@ -6,15 +6,16 @@
     "sourceMap": true,
     "outDir": "./dist",
     "strict": true,
-    "noImplicitAny": true,
     "strictNullChecks": true,
     "noImplicitThis": true,
     "alwaysStrict": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "noImplicitReturns": true
+    "noUnusedLocals": true
   },
+  "include": [
+    "index.d.ts"
+  ],
   "exclude": [
+    "dist",
     "__tests__",
     "node_modules"
   ]

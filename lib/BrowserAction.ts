@@ -1,5 +1,5 @@
-﻿export class BrowserAction {
-    onClicked = {
-        addListener: jest.genMockFn()
-    }
-};
+export class BrowserAction {
+  onClicked = {
+    addListener: jest.fn()
+  };
+}
