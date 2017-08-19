@@ -23,6 +23,22 @@
   },
   "homepage": "https://github.com/arvitaly/chrome-jest-mock#readme",
   "jest": {
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ],
+    "testMatch": [
+      "**/__tests__/*.(ts|tsx)"
+    ],
+    "collectCoverage": true,
     "verbose": true
+  },
+  "devDependencies": {
+    "jest": "^20.0.4",
+    "typescript": "^2.4.2"
+  },
+  "dependencies": {
+    "@types/jest": "^20.0.7"
   }
 }
